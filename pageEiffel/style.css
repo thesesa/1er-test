@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "robotbolt";
+    src: url(./robotbolt/Roboto-Bold.ttf);
+}
+
+body {
+    background: url(./images/te\ bg.jpg) center/cover;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+ul {
+    list-style: none;
+}
+
+header,
+h4 {
+    text-align: center;
+    background: #00800073;
+    margin: 20px 35% 20px 35%;
+    border-radius: 70px;
+}
+
+header,
+h1 {
+    background: #ffffff14;
+    min-height: 70px;
+    margin-top: 25px;
+    padding: 0;
+    font-size: 50px;
+    border-radius: 25px;
+    font-family: "robotbolt";
+}
+
+#project {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+#project img {
+    width: 100%;
+}
+
+#project ul {
+    margin: 10px;
+    padding: 10px;
+}
+
+#gf ul {
+    display: flex;
+    min-height: 150px;
+    margin: 20px;
+    padding: 0;
+    font-family: "robotbolt", sans-serif;
+    color: #007bff;
+}
+
+#gf img {
+    height: 100%;
+}
+
+.test {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0 10px;
+    text-shadow: -2px 2px 6px #0014ff4a;
+    background: rgba(255 255 255 / 50%);
+    border-radius: 60px;
+}
+
+#docte ul,
+#docte li {
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#docte li {
+    margin: 5px;
+}
+
+ul.surpri:hover {
+    background-color: rgb(68, 0, 255);
+}
+
+li.surprise:hover {
+    background-color: red;
+    border-radius: 25px;
+    color: white;
+}
+
+#wwfte {
+    margin: 50px;
+    display: flex,
+}
+
+#wwfte ul {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+}
+
+#wwfte a {
+    text-decoration: none;
+}
+
+#wwfte a li {
+    border-radius: 25px;
+    background: #6f383854;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+#wwfte li {
+    padding: 5px;
+}
+
+#wwfte img {
+    width: 100%;
+    box-shadow: #007bff;
+}
+
+
+#cte {
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 30px;
+}
+
+.a {
+    grid-column: 1 / 4;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.b,
+.c,
+.d,
+.e,
+.f,
+.g {
+    text-align: center;
+    background-color: #ee82ee8c;
+    min-height: 100px;
+}
+
+footer ul {
+    padding: 0;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer li {
+    height: 100px;
+    width: 160px;
+    margin: 10px;
+    box-shadow: 0px -1px 20px 1px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.u2,
+.u3,
+.u4,
+.u5,
+.u6 {
+
+    list-style: none;
+    min-height: 100px;
+    color: white;
+    text-align: center;
+}
+
+
+.u2 {
+    background: url(../pagefinale/images/bg.jpg) center/cover;
+}
+
+.u3 {
+    background: url(../pagefinale/images/louvre.jpg) center/cover;
+}
+
+.u4 {
+    background: url(../pagefinale/images/arc-de-triomphe.jpg) center/cover;
+}
+
+.u5 {
+    background: url(../pagefinale/images/musee-dorsay-1614902_640.jpg) center/cover;
+}
+
+.u6 {
+    background: url(../pagefinale/images/notre-dame-de\ -paris.jpg) center/cover;
+}
+
+@media screen and (max-width:1060px) {
+
+    #project {
+        display: grid;
+        grid-template-columns: 40% 20% 40%;
+    }
+
+    .imgte {
+        display: none;
+    }
+
+    #wwfte ul {
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,68 @@
+body {
+    background: url(./images/bg.jpg)center/cover;
+    color: aliceblue;
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    height: 80px;
+    margin: 0px;
+    padding: 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.incontournable {
+    min-height: 400px;
+    text-align: center;
+}
+
+.incontournable ul {
+    padding: 0;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around
+}
+
+.incontournable li {
+    list-style: none;
+    height: 100px;
+    width: 160px;
+    margin: 10px;
+    box-shadow: 0px -1px 20px 1px;
+}
+
+.u2,
+.u3,
+.u4,
+.u5,
+.u6 {
+    min-height: 25vh;
+}
+
+.u2 {
+    background: url(./images/tour\ eiffel.jpg) center/cover;
+
+}
+
+.u3 {
+    background: url(./images/louvre.jpg) center/cover;
+
+}
+
+.u4 {
+    background: url(./images/arc-de-triomphe.jpg) center/cover;
+}
+
+.u5 {
+    background: url(./images/musee-dorsay-1614902_640.jpg) center/cover;
+}
+
+.u6 {
+    background: url(./images/notre-dame-de\ -paris.jpg) center/cover;
+}
